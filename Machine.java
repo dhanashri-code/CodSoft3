@@ -84,7 +84,7 @@ class ATM {
     }
 }
 
-public class Mchine {
+public class Machine {
     public static void main(String[] args) throws Exception {
         BankAccount bankAccount = new BankAccount(1000);
         ATM atm = new ATM(bankAccount);
